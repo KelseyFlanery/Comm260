@@ -1,0 +1,81 @@
+body{
+  font-family: arial;
+  background:rgb(255,192,203);
+}
+
+h1{
+  text-align: center;
+
+}
+
+.tab{
+  border: 5px double black;
+  border-radius: 2em;
+  padding: 5px;
+  background: white;
+  margin: 10px;
+}
+
+
+a.tab:link{
+  color: rgb(255,192,203);
+  background: black;
+
+}
+
+a.tab:hover{
+  color:grey;
+  background: white;
+}
+
+
+
+a.tab:active{
+  color:pink;
+  background: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+video{
+  display: block;
+  margin: 0 auto;
+}
+.contactcard{
+  /* text-align: center; */
+  font-size:1em;
+  font-style: oblique;
+  color: black;
+  width :200px;
+  display: block;
+  margin: 0 auto;
+  background: white;
+  border-radius: 2px;
+  height: 130px;
+  /* padding: 10px; */
+
+}
+.menu{
+  /* text-align: center; */
+  font-size:1em;
+  color: rgb(255,192,203);
+  width :200px;
+  float: left;
+  background: white;
+  border-radius: .5px;
+  height: 200px;
+  /* padding: 10px; */
+}
+
+
+
+#starttitle{
+  text-align: center;
+
+}
