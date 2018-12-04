@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+img {
+	width: 100%;
+    max-width: 100%;
+}
+html {
+    font-size: 18px;
+}
+body	{
+	width: 98%;
+	margin: 0 auto;
+	background-image: url("../img/souk_flowers.jpg")
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+}
+nav ul a,
+nav ul a:visited {
+	text-decoration: none;
+	color: #333;
+}
+header {
+	padding: 20px 0px 10px;
+	background: #ffcc00;
+	min-height: 150px;
+}
+header h1 {
+	clear: both;
+	padding-left: 25px;
+	margin-bottom: 0px;
+}
+header blockquote	{
+	color: #222;
+	font-size: 1.3em;
+	font-style: italic;
+	margin-top: 0px;
+	padding-left: 200px;
+}
+#top-nav {
+	float: right;
+	margin: 1% 10% 0% 0%;
+	text-transform: uppercase;
+}
+#top-nav ul li {
+	display: inline;
+	padding: 10px;
+}
+#top-nav ul li a:hover, #top-nav ul li a:focus, #top-nav ul li a:active {
+	color: #16f;
+	border-bottom: 2px solid #39f;
+}
+#navigation {
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+.container {
+	margin: 0px auto;
+	clear: both;
+}
+#primary {
+	width: 20%;
+	margin: 0px;
+	float: left;
+}
+#main {
+	margin: 0px;
+	padding: 0px 25px;
+	width: 60%;
+	float: left;
+	margin-bottom: 30px;
+	background-image: url("../img/pipes.png");
+	;
+}
+#sidebar {
+	margin: 0px;
+	width: 20%;
+	float:left;
+	background: #fc3;
+	color: #333;
+	padding: 15px;
+	min-height: 300px;
+}
+h1 {
+	font-size: 48px;
+}
+#main-nav ul li a {
+	width: 20%;
+	padding: 5px;
+	display: block;
+	float: left;
+	text-align: center;
+	background: #36f;
+	color: #efefef;
+	border: 1px solid #fff;
+}
+#main-nav a:hover,
+#main-nav a:focus,
+#main-nav a:active {
+	background: #fff;
+	color: #36f;
+	border: 1px solid #36f;
+}
+#secondary-nav ul li a	{
+	display: block;
+	width: 100%;
+	border: 2px solid #39f;
+	margin-top: 4px;
+	font-size: 1.2rem;
+	padding: .5rem 0rem .5rem 2rem;
+	line-height: 2rem;
+	background: #fc3;
+}
+#secondary-nav ul li a:hover,
+#secondary-nav ul li a:focus,
+#secondary-nav ul li a:active	{
+	background: #fff;
+	color: #39f;
+}
+.post-heading {
+	color: #006633;
+	font-size: 1.8em;
+	margin-bottom: 0px;
+}
+
+.hero-image img {
+	width: 100%;
+}
+article p {
+	text-align: justify;
+	text-indent: 25px;
+	padding:10px;
+	column-count: 2;
+
+}
+.article-thumbs	{
+	text-align: center;
+	clear:both;
+}
+.article-thumbs img {
+	border-radius: 50%;
+	max-width: 200px;
+}
+footer	{
+	clear: both;
+	padding:20px 0px;
+	border-top: 5px groove #ffcc00;
+	background-image: url("../img/thumbs/souk_candy_thumb.jpg");
+}
+/* desktops and larger screens */
+@media screen and (max-width: 64rem){
+    #demo    {
+    background: orange;
+    }
+}
+@media screen and (max-width: 48rem){ /* 768/16 */
+    #demo    {
+    background: red;
+    }
+
+}
+@media screen and (max-width: 30rem) {
+    #demo    {
+    background: green;
+    }
+}
