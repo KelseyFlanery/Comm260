@@ -1,0 +1,36 @@
+body{
+  font-family: arial;
+  background:rgb(‎212, 175, 55);
+}
+
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.heading{
+font-family: 'Unlock', cursive;font-size:3em;color:gold;}
+
+.options{
+  font-family: 'Montserrat', sans-serif; font-size: 1em;color: black;
+}
+
+
+.box {
+  float: left;
+  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
+}
+
+.box2 {
+    margin: 0 auto;
+  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
+}
+.logo{
+      position: absolute;
+      right: 0px;
+      width: 300px;
+      padding: 10px;
+}
