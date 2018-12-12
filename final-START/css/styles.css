@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    line-height: 1.4rem;
+}
+li{
+	display:inline;
+	float:right;
+}
+a {
+  display: block;
+  padding: 25px;
+}
+blockquote{
+	margin:auto;
+	width:500px;
+	text-align: center;
+	border-left: 6px solid lightgrey;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
+}
+.header{
+	text-align: center;
+	font-size: 3em;
+	line-height: 1.5em;
+	width:300px;
+	height:100px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.header{
+	font-family:'Slabo_27px', serif;
+}
+.kidheading{font-family:'Slabo_27px', serif;
+margin:auto;
+width: 500px;
+text-align: center;
+border-bottom: 3px solid red;
+  background-color: none;
+}
+body{font-family: 'Roboto', sans-serif;
+background: url(img/bg.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+img {
+	width: 100%;
+    max-width: 100%;
+}
+
+footer {
+    margin: 4rem 0rem;
+    padding: 2rem 0rem;
+    border-top: 1px solid #ccc;
+    font-size: .8rem;
+}
